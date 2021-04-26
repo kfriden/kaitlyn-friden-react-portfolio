@@ -1,0 +1,7 @@
+"this-binder": {
+		"prefix": "binder",
+		"body": [
+			"this.${1} = this.${1}.bind(this);"
+		],
+		"description": "blank bind statement"
+	}

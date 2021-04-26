@@ -1,0 +1,57 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .portfolio-item-wrapper {
+        position: relative;
+
+        .portfolio-img-background {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 350px;
+            width: 100%;
+        }
+
+        .img-text-wrapper {
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+
+
+            .subtitle {
+                transition: 1s ease-in-out;
+                color: transparent;
+                padding: 0px 100px;
+            }
+        }
+
+        .img-text-wrapper:hover .subtitle {
+            color: $teal;
+            font-weight: 400;
+        }
+
+        .logo-wrapper img {
+            width: 90%;
+            margin-bottom: 20px;
+        }
+
+    }
+}
+
+.img-blur {
+    transition: 1s ease-in-out;
+    filter: brightness(10%);
+}
+
+
