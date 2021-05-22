@@ -170,7 +170,7 @@ export default class PortfolioForm extends Component {
                 banner_image: "",
                 logo: "",
                 editMode: false,
-                apiUrl: `https://kaitlynfriden.devcamp.space/portfolio/portfolio_items/${id}`,
+                apiUrl: `https://kaitlynfriden.devcamp.space/portfolio/portfolio_items`,
                 apiAction: "post"
             });
 
